@@ -45,7 +45,7 @@ function create() {
 var game = new Phaser.Game({
     width: window.innerWidth*0.9, // largura da tela do jogo em  pixels
     height: window.innerHeight*0.9, // altura da tela do jogo em pixels
-    backgroundColor: '#c4e3c3', // Cor do fundo (verde)
+    backgroundColor: '#FCFC00', // Cor do fundo (amarelo)
     scene: {
         preload: preload,
         create: create,
